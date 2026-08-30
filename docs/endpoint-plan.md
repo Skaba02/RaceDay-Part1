@@ -1,6 +1,7 @@
 # RaceDay API Endpoint Plan
 
 This document lists every endpoint the RaceDay API will expose, planned before any application code is written. It follows the two system roles: **Organiser** and **Participant**.
+Routes follow REST conventions - resources are named as plural nouns (e.g. /api/events), and the HTTP method indicates the action (GET to read, POST to create, PUT to update, DELETE to remove). This keeps the API predictable and easy to extend later.
 
 ## Authentication
 
