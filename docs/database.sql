@@ -1,3 +1,4 @@
+-- This script was written and tested against SQL Server 2022 in SSMS 20.
 /* ============================================================
    RaceDay System - Database Creation Script
    Run in SQL Server Management Studio (SSMS) on a clean instance.
