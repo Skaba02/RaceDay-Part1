@@ -108,6 +108,7 @@ GO
 /* ============================================================
    SEED DATA
    ============================================================ */
+   -- Sample data below: 2 Organisers, 2 Participants, 3 Events with categories, and a few enrolments/results for testing.
 
 -- Roles
 INSERT INTO dbo.Roles (RoleName) VALUES ('Organiser'), ('Participant');
