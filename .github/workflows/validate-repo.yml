@@ -1,3 +1,4 @@
+# This workflow checks that /docs contains the required planning files (ERD, endpoint plan, SQL script) on every push.
 name: Validate Repository Structure
 
 on:
