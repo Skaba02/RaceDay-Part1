@@ -8,8 +8,8 @@ This part of the project covers the planning stage only. No application code is 
 
 ## Roles
 
-- **Organiser** - creates and manages events and categories, views who has enrolled, and records results.
-- **Participant** - browses events, enrols in a category, and views their own enrolments and results.
+- **Organiser** - the person running the event. Sets up events and their categories, keeps track of who has signed up, and enters each participant's result once the race is finished.
+- **Participant** - the person taking part. Looks through upcoming events, joins a category, and checks back later to see their own results.
 
 ## Repository Structure
 
