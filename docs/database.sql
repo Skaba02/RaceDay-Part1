@@ -81,6 +81,7 @@ GO
 /* ------------------------------------------------------------
    5. Enrolments (junction table: Participant enrols in a Category)
    ------------------------------------------------------------ */
+   -- Enrolments links a Participant to a category. The unique constraint below stops someone enrolling in the same category twice.
 CREATE TABLE dbo.Enrolments (
     EnrolmentId     INT             IDENTITY(1,1) PRIMARY KEY,
     ParticipantId   INT             NOT NULL,
