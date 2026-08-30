@@ -42,3 +42,9 @@ The video covers:
 ## Notes
 
 The SQL script in `/docs/database.sql` matches the ERD exactly - six entities, with primary keys, foreign keys, and cardinalities as shown in the diagram.
+
+## Assumptions
+
+- A user can only hold one role at a time - either Organiser or Participant.
+- A Participant can enrol in more than one category, but only once per category (enforced by a unique constraint).
+- Results are entered by the Organiser after the event has taken place; there is no self-reported result option.
