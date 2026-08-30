@@ -29,8 +29,7 @@ A GitHub Actions workflow (`.github/workflows/validate-repo.yml`) runs on every 
 
 **CI/CD screenshot:**
 
-`[Insert screenshot of the successful green build here after your first push]`
-
+'![CI passing](ci-success.png)'
 ## Video Walkthrough
 
 `[Insert your unlisted YouTube link here]`
