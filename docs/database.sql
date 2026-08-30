@@ -52,6 +52,7 @@ GO
 /* ------------------------------------------------------------
    3. Events (created by an Organiser)
    ------------------------------------------------------------ */
+   -- Each Event is created by one Organiser and have multiple Categories (e.g. 5km, 10km).
 CREATE TABLE dbo.Events (
     EventId         INT             IDENTITY(1,1) PRIMARY KEY,
     OrganiserId     INT             NOT NULL,
