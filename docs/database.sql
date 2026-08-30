@@ -97,6 +97,7 @@ GO
 /* ------------------------------------------------------------
    6. Results (one Result per Enrolment)
    ------------------------------------------------------------ */
+   -- Results holds one finish time and position per Enrolment, entered by the Organiser after the race.
 CREATE TABLE dbo.Results (
     ResultId        INT             IDENTITY(1,1) PRIMARY KEY,
     EnrolmentId     INT             NOT NULL UNIQUE,
