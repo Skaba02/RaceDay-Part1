@@ -68,6 +68,7 @@ GO
 /* ------------------------------------------------------------
    4. Categories (each Event has one or more Categories, e.g. 5km, 10km)
    ------------------------------------------------------------ */
+   -- Categories belong to one Event, e.g. a 5km and a 10km category under the same race day.
 CREATE TABLE dbo.Categories (
     CategoryId      INT             IDENTITY(1,1) PRIMARY KEY,
     EventId         INT             NOT NULL,
