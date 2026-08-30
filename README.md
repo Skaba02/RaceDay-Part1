@@ -2,7 +2,7 @@
 
 ## Description
 
-RaceDay is a system for managing running events. An Organiser can create events and set up race categories (for example a 5km or 10km category within one event). A Participant can browse events, enrol in a category, and later view their results once an Organiser has recorded them.
+RaceDay lets people organise and take part in running events. Someone with the Organiser role sets up an event and adds one or more categories to it, such as a 5km and a 10km option under the same event. Someone with the Participant role can look through the available events, sign up for a category, and check their results after the Organiser has entered them.
 
 This part of the project covers the planning stage only. No application code is written here. The repository contains the Entity Relationship Diagram, the API endpoint plan, and the SQL script used to build the database in SQL Server Management Studio (SSMS).
 
