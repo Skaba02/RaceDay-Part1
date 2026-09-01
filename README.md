@@ -32,7 +32,7 @@ A GitHub Actions workflow (`.github/workflows/validate-repo.yml`) runs on every 
 '![CI passing](ci-success.png)'
 ## Video Walkthrough
 
-`[Insert your unlisted YouTube link here]`
+https://youtu.be/bnj5s2Df7_U?si=sZDxd0rMoqle_oiI
 
 The video covers:
 - A walkthrough of the ERD and the reasoning behind the entities and relationships.
